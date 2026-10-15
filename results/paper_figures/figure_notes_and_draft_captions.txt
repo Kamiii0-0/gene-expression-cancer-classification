@@ -1,0 +1,25 @@
+PAPER FIGURE NOTES AND DRAFT CAPTIONS
+
+Figure 1. Test accuracy and macro-F1 versus feature-retention level. Error bars show
+one standard deviation across five repeated stratified 75:25 splits. The 0% point
+uses a majority-class DummyClassifier baseline. Test sets overlap across the splits.
+
+Figure 2. Test accuracy and macro-F1 under simulated random masking of individual
+gene-expression measurements. The full 0–1 score axis is shown. The data contain no
+native missing values; this is a simulation, not a test of naturally occurring missingness.
+
+Figure 3. Zoomed view of Figure 2 with the y-axis restricted to 0.95–1.005 to make
+small score differences visible. This truncated scale must be stated if used in the paper.
+
+Figure 4. Row-normalized confusion matrix with accumulated counts and row percentages
+across five test splits. Test sets overlap, so accumulated counts are prediction events,
+not a count of unique independent samples.
+
+Figure 5. Test metrics for genuine training labels versus shuffled training labels.
+There are five genuine-label runs and 50 shuffled-label runs. The test sets overlap and
+this control does not rule out all possible leakage or establish external generalization.
+
+General caution: observed very high performance on this dataset should be described as
+preliminary and dataset-specific. These figures do not establish clinical utility or
+independent-patient generalization. Confirm data provenance and validation design before
+making broader claims.

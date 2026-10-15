@@ -1,0 +1,6 @@
+,Pred_BRCA,Pred_KIRC,Pred_LUAD,Pred_PRAD,Pred_COAD
+True_BRCA,375,0,0,0,0
+True_KIRC,0,185,0,0,0
+True_LUAD,3,0,172,0,0
+True_PRAD,0,0,0,170,0
+True_COAD,0,0,0,0,100
